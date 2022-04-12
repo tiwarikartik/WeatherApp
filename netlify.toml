@@ -1,0 +1,4 @@
+[build]
+    functions="functions"
+    publish="public"
+    NODE_ENV="14.17.5"

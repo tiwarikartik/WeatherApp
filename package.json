@@ -1,0 +1,40 @@
+{
+    "name": "weather-app",
+    "version": "1.0.0",
+    "description": "It is a weather Forecast Giving App made with Node.JS, Express.JS",
+    "main": "index.js",
+    "type": "commonjs",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [
+        "node.js",
+        "express.js",
+        "express",
+        "node",
+        "weather",
+        "app",
+        "application",
+        "weather",
+        "forecast"
+    ],
+    "author": "Kartik M. Tiwari",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.0.0",
+        "express": "^4.17.3",
+        "lodash": "^4.17.21",
+        "netlify-cli": "^9.16.6",
+        "node-fetch": "^3.2.3",
+        "serverless-http": "^3.0.1"
+    },
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tiwarikartik/WeatherApp.git"
+    },
+    "bugs": {
+        "url": "https://github.com/tiwarikartik/WeatherApp/issues"
+    },
+    "homepage": "https://github.com/tiwarikartik/WeatherApp#readme"
+}

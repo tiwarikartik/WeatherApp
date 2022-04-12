@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+* {
+    font-family: "Comfortaa";
+}
+
+html {
+    margin: -10px;
+    background: rgb(1, 46, 59);
+}
+
+#tilt-card {
+    padding: 6%;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    color: rgb(1, 46, 59);
+    background: linear-gradient(0deg,
+            rgba(94, 211, 247, 0.527),
+            rgba(94, 211, 247, 0.527)),
+        url('./images/back.jpeg') round;
+}
+
+#location-grid {
+    display: grid;
+    grid-template-columns: 45px auto;
+    align-items: center;
+}
+
+#temp {
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 900;
+    padding: 0;
+}
+
+#normal-card {
+    background: rgb(1, 46, 59);
+    color: lightsteelblue;
+    width: 100vw;
+    padding: 6%;
+}
+
+img {
+    margin: 0;
+}
+
+td {
+    padding: 1vw;
+}
+
+table {
+    padding: 1.5vw;
+}
+
+.design {
+    color: white;
+    font-weight: 600;
+    background: linear-gradient(45deg,
+            #0056e0,
+            #0086d3,
+            #00b1c7,
+            #00d0be,
+            #00e6b8);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.color1 {
+    color: #00e6b8;
+}
+
+.color2 {
+    color: #0056e0;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.icons {
+    width: 40px;
+    height: 40px;
+}
+
+.capitalize {
+    text-transform: capitalize;
+    font-size: 1.7rem;
+}
+
+.medium-text {
+    font-size: 1.5rem;
+}
+
+.large-text {
+    font-size: 2rem;
+}
+
+footer {
+    display: block;
+    font-size: 10px;
+    color: #00e6b8;
+}
+
+@media only screen and (min-width: 590px) {
+    html {
+        margin: 0;
+        background-color: #0056e0;
+    }
+
+    main {
+        height: 100vh;
+        display: grid;
+        align-items: center;
+        justify-items: right;
+        grid-gap: 80px;
+        grid-template-columns: auto auto;
+    }
+
+    #tilt-card {
+        padding: 15%;
+        width: min(276px, 25vw);
+        min-width: 276px;
+        border-radius: 40px 100px;
+        height: auto;
+    }
+
+    #date {
+        margin-bottom: 15vh;
+    }
+
+    #normal-card {
+        background: rgb(1, 46, 59);
+        color: lightsteelblue;
+        min-width: 500px;
+        width: 32vw;
+        padding: 0;
+        justify-self: left;
+        border-radius: 0 40px 40px 0;
+    }
+
+    img {
+        margin: 0;
+    }
+
+    td {
+        padding: 0.8vw;
+    }
+
+    table {
+        padding: 0.5vw;
+    }
+
+    .medium-text {
+        font-size: 1.3rem;
+    }
+
+    .large-text {
+        font-size: 1.7rem;
+    }
+}

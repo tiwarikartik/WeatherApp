@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <script src="./script.js"></script>
+        <title>Weather App</title>
+    </head>
+    <body link="#00e6b8" alink="#00e6b8">
+        <main>
+            <div>
+                <div id="tilt-card">
+                    <p id="day" class="large-text">Tuesday</p>
+                    <p id="date" class="medium-text">25 May 2021</p>
+                    <span id="location-grid">
+                        <img
+                            src="./images/location-pointer.png"
+                            alt="Location Icon"
+                            class="icons"
+                        />
+                        <h3 id="location" class="medium-text">
+                            Borivali, India
+                        </h3>
+                    </span>
+                    <img
+                        src="./images/forecast.png"
+                        id="icon"
+                        alt="Weather Icon"
+                    />
+                    <p id="temp">31 °C</p>
+                    <p id="desc" class="capitalize">Few Clouds</p>
+                </div>
+            </div>
+
+            <div id="normal-card">
+                <table>
+                    <tr id="button-row">
+                        <td colspan="4" align="center">
+                            <input
+                                class="design"
+                                id="change"
+                                onclick="createChanger('i')"
+                                type="button"
+                                value="Change Location"
+                            />
+                        </td>
+                    </tr>
+                    <th class="color2" colspan="4">Temperature</th>
+                    <tr>
+                        <td class="color1">Feels Like</td>
+                        <td id="feels_like">33 °C</td>
+                        <td class="color1">Minimum</td>
+                        <td id="temp_min">29 °C</td>
+                    </tr>
+                    <tr>
+                        <td class="color1">Maximum</td>
+                        <td id="temp_max">31 °C</td>
+                        <td class="color1">Humidity</td>
+                        <td id="humidity">57 %</td>
+                    </tr>
+
+                    <th class="color2" colspan="4">Pressure</th>
+                    <tr>
+                        <td class="color1">Sea Level</td>
+                        <td id="sea_level">1007 hPa</td>
+                        <td class="color1">Ground Level</td>
+                        <td id="grnd_level">1007 hPa</td>
+                    </tr>
+
+                    <th class="color2" colspan="2">Wind</th>
+                    <th class="color2" colspan="2">Sky</th>
+                    <tr>
+                        <td class="color1">Speed</td>
+                        <td id="speed">1.53 meter/sec</td>
+                        <td class="color1">Cloudiness</td>
+                        <td id="clouds">12 %</td>
+                    </tr>
+                    <tr>
+                        <td class="color1">Gust</td>
+                        <td id="gust">1.89 meter/sec</td>
+                        <td class="color1">Sunrise</td>
+                        <td id="rise">06:23 AM</td>
+                    </tr>
+                    <tr>
+                        <td class="color1">Direction</td>
+                        <td id="deg">295 °</td>
+
+                        <td class="color1">Sunset</td>
+                        <td id="set">06:54 PM</td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </body>
+</html>
