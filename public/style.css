@@ -4,6 +4,35 @@
     font-family: "Comfortaa";
 }
 
+/* when text will be selected in website */
+::selection {
+    color: rgb(1, 46, 59);
+    background-color: lightsteelblue;
+    cursor: text;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #0056e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #8eaacf;
+    border: none;
+    border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b0c4de;
+}
+
 html {
     margin: -10px;
     background: rgb(1, 46, 59);
